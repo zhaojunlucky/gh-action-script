@@ -1,0 +1,83 @@
+# General Node.js ignores
+node_modules/
+dist/
+build/
+coverage/
+tmp/
+.tmp/
+out/
+*.log
+*.swp
+*.lock
+
+# Package Manager files
+package-lock.json
+yarn.lock
+npm-debug.log
+yarn-error.log
+
+# Editor and IDE related files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+._*
+ehthumbs.db
+Thumbs.db
+
+# OS generated files
+.DS_Store
+*.bak
+*.orig
+*~
+
+# Environment Variables
+.env
+.env.*
+!.env.example # Keep this for example/documentation purposes
+
+# Optional: Ignore compiled files (if applicable)
+*.js.map
+*.d.ts
+
+# Specific to some frameworks/libraries (add if relevant)
+# Next.js
+.next/
+
+# Nuxt.js
+.nuxt/
+
+# Gatsby
+.cache/
+public/
+
+# Serverless Framework
+.serverless/
+
+# Docker
+docker-compose.override.yml # If you have one
+
+# Testing
+/test/output/
+/test/tmp/
+
+# Logs
+logs/
+
+# Credentials
+credentials.json
+config.json
+*.pem
+*.key
+*.p12
+
+# Ignore temporary files created by some tools
+/tmp/
+/temp/
+
+# Ignore files that are only relevant to your local environment and should never be committed
+local.settings.json
+.env
