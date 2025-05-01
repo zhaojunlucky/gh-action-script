@@ -105,7 +105,7 @@ export async function main() {
         repo: repo,
         release_id: release.id,
         data: downloadData,
-        name: artifact.name,
+        name: `${artifact.name}.zip`,
         headers: {
             "Content-Type": "application/zip",
             "Content-Length": downloadData.byteLength
